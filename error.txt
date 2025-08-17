@@ -1,0 +1,89 @@
+{
+  "status": "Database connection successful",
+  "tables": {
+    "request_logs": {
+      "count": 9,
+      "recent": [
+        {
+          "endpoint": "gemini_generate",
+          "id": 9,
+          "timestamp": "2025-08-13T17:52:50.696483"
+        },
+        {
+          "endpoint": "gemini_generate",
+          "id": 8,
+          "timestamp": "2025-08-13T17:52:13.749396"
+        },
+        {
+          "endpoint": "gemini_generate",
+          "id": 7,
+          "timestamp": "2025-08-13T17:32:20.656896"
+        }
+      ]
+    },
+    "response_logs": {
+      "count": 2,
+      "recent": [
+        {
+          "id": 2,
+          "model_used": "gemini-2.0-flash",
+          "request_id": 9,
+          "timestamp": "2025-08-13T17:52:57.239976"
+        },
+        {
+          "id": 1,
+          "model_used": "gemini-2.0-flash",
+          "request_id": 8,
+          "timestamp": "2025-08-13T17:52:17.909002"
+        }
+      ]
+    }
+  }
+}
+
+
+this is the db-check endpoint results,
+{
+  "status": "Database connection successful",
+  "tables": {
+    "request_logs": {
+      "count": 9,
+      "recent": [
+        {
+          "endpoint": "gemini_generate",
+          "id": 9,
+          "timestamp": "2025-08-13T17:52:50.696483"
+        },
+        {
+          "endpoint": "gemini_generate",
+          "id": 8,
+          "timestamp": "2025-08-13T17:52:13.749396"
+        },
+        {
+          "endpoint": "gemini_generate",
+          "id": 7,
+          "timestamp": "2025-08-13T17:32:20.656896"
+        }
+      ]
+    },
+    "response_logs": {
+      "count": 2,
+      "recent": [
+        {
+          "id": 2,
+          "model_used": "gemini-2.0-flash",
+          "request_id": 9,
+          "timestamp": "2025-08-13T17:52:57.239976"
+        },
+        {
+          "id": 1,
+          "model_used": "gemini-2.0-flash",
+          "request_id": 8,
+          "timestamp": "2025-08-13T17:52:17.909002"
+        }
+      ]
+    }
+  }
+}
+this is the proxy server response, but the metrices are not showing here.
+
